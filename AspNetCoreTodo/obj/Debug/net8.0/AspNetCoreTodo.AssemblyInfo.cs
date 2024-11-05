@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AspNetCoreTodo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+593d325b11b57e3bdbca12c211f1873ff879871d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4a80db17b4c26dfbfe93cc38c071fbd1216f53a6")]
 [assembly: System.Reflection.AssemblyProductAttribute("AspNetCoreTodo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AspNetCoreTodo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

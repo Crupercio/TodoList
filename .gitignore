@@ -1,0 +1,148 @@
+# Visual Studio specific files
+.vs/
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Dd]ebug*/
+[Rr]elease*/
+
+# Visual Studio Code
+.vscode/
+
+# User-specific files
+*.user
+*.suo
+*.userprefs
+*.lk
+*.pdb
+
+# NuGet Packages
+packages/
+*.nupkg
+*.snupkg
+# Uncomment if necessary
+# packages/*/
+
+# Resharper files
+_ReSharper*/
+*.DotSettings.user
+
+# Rider files
+.idea/
+*.sln.iml
+
+# NCrunch
+*.ncrunch*
+.*crunch*.local.xml
+nCrunchTemp/
+
+# Others
+*.DS_Store
+Thumbs.db
+*.log
+*.tlog
+*.vspscc
+*.vssscc
+.builds
+
+# Node.js dependencies
+node_modules/
+
+# Yarn
+yarn.lock
+
+# NPM packages
+package-lock.json
+
+# Web files
+wwwroot/node_modules/
+
+# Publish output
+publish/
+
+# Local configuration files
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+*.local.settings.json
+
+# Azure Functions local settings file
+local.settings.json
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+~$*
+*.tmp
+*.temp
+*.bak
+*.old
+*.original
+*_i.c
+*_p.c
+*_i.h
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pch
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp_proj
+*.tmp
+*.log
+
+# Build artifacts
+artifacts/
+
+# Entity Framework Core Migrations
+Migrations/
+
+# IIS config files
+*.config
+
+# Bundler & Minifier
+*.min.*
+*.map
+
+# StyleCop
+StyleCop.Cache
+
+# Cake
+tools/
+Addins/
+Modules/
+.cake
+
+# Backup & report files
+*.bak
+*.dmp
+*.err
+*.orig
+*.rej
+*_bak_*
+
+# Rider internal folders
+.idea/
+*.sln.iml
+
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+# Visual Studio temporary files
+~$*
+
+# App Database
+*.db
+
