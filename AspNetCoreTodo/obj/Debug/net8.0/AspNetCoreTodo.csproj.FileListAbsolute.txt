@@ -138,7 +138,6 @@ C:\Users\LuisF\SchoolProjects\ASP_NET_CORE\Week2\AspNetCoreTodo\AspNetCoreTodo\o
 C:\Users\LuisF\SchoolProjects\ASP_NET_CORE\Week2\AspNetCoreTodo\AspNetCoreTodo\obj\Debug\net8.0\ref\AspNetCoreTodo.dll
 C:\SMU\CSC395\AspNetCoreTodo\AspNetCore\AspNetCoreTodo\bin\Debug\net8.0\appsettings.Development.json
 C:\SMU\CSC395\AspNetCoreTodo\AspNetCore\AspNetCoreTodo\bin\Debug\net8.0\appsettings.json
-C:\SMU\CSC395\AspNetCoreTodo\AspNetCore\AspNetCoreTodo\bin\Debug\net8.0\app.db
 C:\SMU\CSC395\AspNetCoreTodo\AspNetCore\AspNetCoreTodo\bin\Debug\net8.0\AspNetCoreTodo.staticwebassets.runtime.json
 C:\SMU\CSC395\AspNetCoreTodo\AspNetCore\AspNetCoreTodo\bin\Debug\net8.0\AspNetCoreTodo.exe
 C:\SMU\CSC395\AspNetCoreTodo\AspNetCore\AspNetCoreTodo\bin\Debug\net8.0\AspNetCoreTodo.deps.json
@@ -322,3 +321,4 @@ C:\SMU\CSC395\AspNetCoreTodo\AspNetCore\AspNetCoreTodo\bin\Debug\net8.0\vi\Human
 C:\SMU\CSC395\AspNetCoreTodo\AspNetCore\AspNetCoreTodo\bin\Debug\net8.0\zh-CN\Humanizer.resources.dll
 C:\SMU\CSC395\AspNetCoreTodo\AspNetCore\AspNetCoreTodo\bin\Debug\net8.0\zh-Hans\Humanizer.resources.dll
 C:\SMU\CSC395\AspNetCoreTodo\AspNetCore\AspNetCoreTodo\bin\Debug\net8.0\zh-Hant\Humanizer.resources.dll
+C:\SMU\CSC395\AspNetCoreTodo\AspNetCore\AspNetCoreTodo\bin\Debug\net8.0\app.db
