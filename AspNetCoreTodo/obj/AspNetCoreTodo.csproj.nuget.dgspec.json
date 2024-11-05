@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LuisF\\SchoolProjects\\ASP_NET_CORE\\Week2\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo.csproj": {}
+    "C:\\SMU\\CSC395\\AspNetCoreTodo\\AspNetCore\\AspNetCoreTodo\\AspNetCoreTodo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LuisF\\SchoolProjects\\ASP_NET_CORE\\Week2\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo.csproj": {
+    "C:\\SMU\\CSC395\\AspNetCoreTodo\\AspNetCore\\AspNetCoreTodo\\AspNetCoreTodo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LuisF\\SchoolProjects\\ASP_NET_CORE\\Week2\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo.csproj",
+        "projectUniqueName": "C:\\SMU\\CSC395\\AspNetCoreTodo\\AspNetCore\\AspNetCoreTodo\\AspNetCoreTodo.csproj",
         "projectName": "AspNetCoreTodo",
-        "projectPath": "C:\\Users\\LuisF\\SchoolProjects\\ASP_NET_CORE\\Week2\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo.csproj",
-        "packagesPath": "C:\\Users\\LuisF\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LuisF\\SchoolProjects\\ASP_NET_CORE\\Week2\\AspNetCoreTodo\\AspNetCoreTodo\\obj\\",
+        "projectPath": "C:\\SMU\\CSC395\\AspNetCoreTodo\\AspNetCore\\AspNetCoreTodo\\AspNetCoreTodo.csproj",
+        "packagesPath": "C:\\Users\\Luis F CruzSanchez\\.nuget\\packages\\",
+        "outputPath": "C:\\SMU\\CSC395\\AspNetCoreTodo\\AspNetCore\\AspNetCoreTodo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\LuisF\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Luis F CruzSanchez\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -46,6 +45,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Humanizer": {
+              "target": "Package",
+              "version": "[2.14.1, )"
+            },
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.8, )"
@@ -86,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

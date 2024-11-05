@@ -26,8 +26,13 @@ namespace AspNetCoreTodo.Services
                 Title = "Practice Dependency Injection",
                 DueAt = DateTimeOffset.Now.AddDays(3)
             };
+             var item4 = new TodoItem
+            {
+                Title = "Practice Dependency Injection",
+                DueAt = DateTimeOffset.Now.AddMinutes(13)
+            };
 
-            return Task.FromResult(new[] { item1, item2, item3 });
+            return Task.FromResult(new[] { item1, item2, item3,item4 });
         }
     }
 }
