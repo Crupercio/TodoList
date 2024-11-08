@@ -485,4 +485,5 @@ $RECYCLE.BIN/
 # App Database
 *.db
 
+*.sln
 
