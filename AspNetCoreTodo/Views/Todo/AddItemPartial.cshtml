@@ -3,5 +3,13 @@
 <form asp-action="AddItem" method="POST">
     <label asp-for="Title">Add a new item:</label>
     <input asp-for="Title">
+
+    <label for="start">Due Date:</label>
+
+    <input asp-for="DateDue" 
+        type="date" 
+        value="@Model.DateDue.ToString("yyyy-MM-dd")" 
+         />
+
     <button type="submit">Add</button>
 </form>

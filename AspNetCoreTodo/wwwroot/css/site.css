@@ -30,4 +30,17 @@ table tr.done {
   color: #888;
 }
 
+label {
+  display: block;
+  font:
+    1rem 'Fira Sans',
+    sans-serif;
+}
+
+input,
+label {
+  margin: 0.4rem 0;
+}
+
+
 
