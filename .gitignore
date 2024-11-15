@@ -88,4 +88,9 @@ ehthumbs.db
 # Rider settings
 .idea/
 
+# bin folder
+
+AspNetCoreTodo/bin/
+
+
 
