@@ -13,6 +13,7 @@ namespace AspNetCoreTodo.Services
         Task<bool> AddItemAsync(TodoItem newItem, IdentityUser user);
 
         Task<bool> MarkDoneAsync(Guid id, IdentityUser user);
+        Task<bool> DeleteByIdAsync(Guid id, IdentityUser user);
 
       
 

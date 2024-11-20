@@ -68,21 +68,44 @@ public class TodoItemsController : ControllerBase
         return NotFound();
 
     }
+    [HttpDelete("{id}")]
+     public async Task<IActionResult> DeleteItemByID(Guid id)
+    {
+         var user = await _userManager.GetUserAsync(User);
+        if( user == null)
+        {
+            return Challenge();
+        }
+        var result = await _todoItemService.DeleteByIdAsync(id, user);
+        if(result)
+        {
+            return Ok();
+        }
 
-    /*
+        return NotFound();
+
+    }
+
+    
     [HttpPost]
     public async Task<IActionResult> AddItem([FromBody]TodoItem value)
     {
+        if (ModelState.IsValid == false)
+        {
+            return BadRequest();
+        }
+
         var user = await _userManager.GetUserAsync(User);
         if(user == null)
         {
             return Challenge();
         }
-
-        return Ok();
+        await _todoItemService.AddItemAsync(value, user);
+        var uri = new Uri($"{Request.Scheme}://{Request.Host}{Request.Path}/{value.Id}");
+        return Created(uri, null);        
 
     }
-    */
+    
     [HttpPut("{id}")]
     public async Task<IActionResult> UpdateItem(Guid id, [FromBody]TodoItem value)
     {
