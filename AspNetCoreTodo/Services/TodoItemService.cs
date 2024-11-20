@@ -24,6 +24,8 @@ namespace AspNetCoreTodo.Services
             .Where(x => x.IsDone == false && x.UserId == user.Id)
             .ToArrayAsync();
         }
+  
+       
 
         public async Task<bool> AddItemAsync(TodoItem newItem,  IdentityUser user)
         {
